@@ -35,7 +35,7 @@ tbody {
 .md-typeset table:not([class]) td {
     padding: .6rem .8rem;
     border-top: .05rem solid rgba(0,0,0,.07);
-    vertical-align: top;
+    vertical-align: top;md-header-nav__button md-logo
 }
 
 .md-clipboard {
@@ -252,6 +252,25 @@ hr {
     width: 45px;
     height: 45px;
     fill: currentColor;
+}
+
+.md-header-nav__brand {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    text-shadow: 1px 1px 2px black, 0 0 1em white;
+    line-height: 1;
+}
+
+.md-header-nav__brand a span,
+.home-info span {
+    font-size: 45px;
+    display: inline-flex;
+}
+
+.md-header-nav__brand a:hover {
+   color: black;
+    text-shadow: 1px 1px 2px black, 0 0 1em white;
 }
 
 .md-header-nav__button.md-logo {
