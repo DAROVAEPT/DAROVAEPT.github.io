@@ -268,11 +268,11 @@ hr {
 .home-info span {
     font-size: 45px;
     display: inline-flex;
-    transition: .5s;
 }
 
 .md-header-nav__brand a:hover {
    color: black;
+    
     text-shadow: 1px 1px 2px black, 0 0 1em white;
 }
 
